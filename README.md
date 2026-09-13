@@ -58,8 +58,15 @@ source code itself is not published. See [License](#license) for details.
 
 ## Screenshots
 
-> Screenshots coming soon - check back for a look at the crop editor,
-> enhancement panel, and page workspace.
+<div align="center">
+
+| | |
+|---|---|
+| **Main window** <br> ![Main window](screenshots/main.png) | **Editor workspace** <br> ![Editor workspace](screenshots/editor.png) |
+| **Magic Filter** <br> ![Magic Filter](screenshots/magic.png) | **Export options** <br> ![Export options](screenshots/export.png) |
+| **PDF Enhance** <br> ![PDF export](screenshots/pdf.png) | |
+
+</div>
 
 ## Download
 
