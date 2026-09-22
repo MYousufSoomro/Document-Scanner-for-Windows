@@ -3,6 +3,33 @@
 All notable changes to Document Scanner are documented here.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.1.0] - 2026-09-22
+
+### Added
+- Crop editor: draggable edge (midpoint) handles on all four sides, so a
+  whole edge can be repositioned in one drag, matching CamScanner's crop
+  UI, in addition to the four corner handles
+- A visible **Save** button on the main screen (previously only reachable
+  via the File menu or Ctrl+S)
+- "System" theme option that follows the OS's Light/Dark setting
+
+### Changed
+- Default export filename is now the original file's name with
+  `_Scanned` appended (e.g. `Invoice.pdf` -> `Invoice_Scanned`), instead
+  of a generic "Scan"
+- Export format is now single-select (previously multiple checkboxes
+  could be selected at once) and defaults to match the original file's
+  type
+- Theme changes now apply immediately - no restart required - and
+  "System" mode also updates live if the OS theme changes while the app
+  is running
+- Default theme changed from Light to **System**
+
+### Fixed
+- Deleting a page in a multi-page document no longer leaves the main
+  preview showing the deleted page's content until another page is
+  manually selected - the view now updates immediately
+
 ## [1.0.0] - 2026-09-13
 
 Initial public release.
@@ -39,3 +66,4 @@ Initial public release.
 - No OCR / searchable PDF export yet
 - No project save/reopen (`.dscan`) yet
 - Installer is not yet code-signed
+
