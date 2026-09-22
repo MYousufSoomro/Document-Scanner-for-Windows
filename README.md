@@ -64,7 +64,7 @@ source code itself is not published. See [License](#license) for details.
 |---|---|
 | **Main window** <br> ![Main window](screenshots/main.png) | **Editor workspace** <br> ![Editor workspace](screenshots/editor.png) |
 | **Magic Filter** <br> ![Magic Filter](screenshots/magic.png) | **Export options** <br> ![Export options](screenshots/export.png) |
-| **PDF Enhance** <br> ![PDF export](screenshots/pdf.png) | |
+| **PDF export** <br> ![PDF export](screenshots/pdf.png) | |
 
 </div>
 
